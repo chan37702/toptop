@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>layout</title>
+
+	<style>
+		header{
+			background-color:#5CB967;
+			padding:15px;
+			text-align:center;
+			border-bottom:2px inset #417A4A;
+			border-top-left-radius:50px;
+			border-top-right-radius:50px;
+			color:aliceblue;
+				font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+		}
+		
+		nav{
+			
+			background-color: #017407;
+			border-bottom-left-radius:50px;
+			border-bottom-right-radius:50px;
+			
+		}
+		nav ul{display:flex;
+			gap:20px;
+		    list-style:none;
+			justify-content: center;
+			padding:0;
+				margin:0;
+		}
+		section{font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+			
+		}
+		nav a:hover{text-decoration: none;color: aliceblue;font-size: 20px;font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"}
+		nav a{text-decoration: none;color: aliceblue;font-size: 15px;font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"}
+		main { display: flex; flex-grow: 1; padding: 20px; gap: 20px; }
+        section { background-color: #fff; border: 1px solid #ddd; padding: 20px; flex: 3; }
+        article { background-color: #f0f0f0; border: 1px dashed #ccc; padding: 15px; margin-bottom: 15px; }
+       
+		
+	</style>
+	
+</head>
+
+<body>
+	<header>
+		<h1>top 5 most beautiful places in south east asia</h1>
+				While getting to Southeast Asia requires a long flight for U.S. travelers, many would say the payoff at the other end is well worth the journey. The region is home to some of the planet’s most epic scenery, both natural and human-made, from its largest-volume waterfall to its biggest religious complex and its tallest island peak. While narrowing down a list of places to visit in Southeast Asia is next to impossible, here are 5 beautiful sites to start
+	</header>
+	<nav>
+	
+		<ul>
+		    <li><a href="#">home</a></li>
+			<li><a href="#">shop</a></li>
+			<li><a href="#">about</a></li>
+			<li><a href="#">contact</a></li>
+			<li><a href="#">info</a></li>
+			
+		</ul>
+		
+	</nav>
+	<main>
+    <section>
+      <h2>top 5 most beautiful places in south east asia</h2>
+      <p>places</p>
+      <article>
+        <h3>1. Halong Bay, Vietnam</h3>
+        <p>Halong Bay is a UNESCO World Heritage Site and one of Vietnam's most iconic destinations. With its emerald waters and towering limestone karsts, this bay creates a truly mesmerizing seascape that's best explored on a boat cruise. Witness the ethereal beauty of thousands of islets and caves, and be captivated by the legendary tales associated with this mystical place.</p>
+      </article>
+      <article>
+        <h3>2. Angkor Wat, Cambodia</h3>
+        <p>Angkor Wat, located in Siem Reap, is an architectural masterpiece and the largest religious monument in the world. This ancient temple complex was built in the 12th century and showcases the rich history and intricate artistry of the Khmer Empire. Explore the sprawling ruins, watch the sunrise over the iconic main temple, and be transported back in time amidst the mystical atmosphere</p>
+      </article>
+		<article>
+        <h3>3. Bali, Indonesia</h3>
+        <p>Bali, often referred to as the "Island of the Gods," offers a perfect blend of natural beauty, spirituality, and vibrant culture. From verdant rice terraces and pristine beaches to majestic volcanoes and lush jungles, Bali's landscapes are a photographer's paradise. Immerse yourself in the island's spiritual energy, visit ancient temples, and experience the warm hospitality of the Balinese people.</p>
+      </article>
+		<article>
+        <h3>4. Bagan, Myanmar</h3>
+        <p>Bagan is an archaeological marvel that boasts thousands of ancient temples and pagodas spread across the vast plains. This UNESCO World Heritage Site transports visitors to a bygone era, where mystical spires rise from the misty landscape. Explore the temples by bike or hot air balloon, and witness the magical sunrise or sunset over the serene temples of Bagan</p>
+      </article>
+		<article>
+        <h3>5. Palawan, Philippines</h3>
+        <p>Palawan is a tropical paradise known for its crystal-clear turquoise waters, white sandy beaches, and stunning limestone cliffs. El Nido and Coron are popular destinations within Palawan, offering breathtaking island hopping experiences, vibrant coral reefs for snorkeling, and the opportunity to unwind on secluded beaches. Palawan's natural beauty is simply unparalleled</p>
+      </article>
+    </section>
+   
+  </main>
+
+</body>
+</html>
